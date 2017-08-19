@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Add Movie</title>
+  
+  
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/pay.css">
+
+  
+</head>
+
+<body>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+<div class="container">
+  <div id="Checkout" class="inline">
+      <h1>Add Movie</h1>
+      
+      <form action="Addm.jsp">
+          <div class="form-group">
+              
+          </div>
+          <div class="form-group">
+              <label or="NameOnCard">Movie Title</label>
+              <input name="noc" id="NameOnCard" class="form-control" type="text" maxlength="255"></input>
+          </div>
+          <div class="form-group">
+              <label for="CreditCardNumber">Price In Dollars</label>
+              <input name="cn" id="CreditCardNumber" class="null card-image form-control" type="text"></input>
+          </div>
+          
+         
+          <div class="zip-code-group form-group">
+              <label for="ZIPCode">Description</label>
+              <div class="input-container">
+                  <input name="zip" id="ZIPCode" class="form-control" type="text" maxlength="5000"></input>
+                  <a tabindex="0" role="button" data-toggle="popover" data-trigger="focus" data-placement="left" data-content="Enter the ZIP/Postal code for your credit card billing address."><i class="fa fa-question-circle"></i></a>
+              </div>
+          </div>
+          <button id="PayButton" class="btn btn-block btn-success submit-button" type="submit">
+              <span class="submit-button-lock"></span>
+              <span class="align-middle">Add Movie</span>
+          </button>
+      </form>
+  </div>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
